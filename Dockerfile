@@ -17,4 +17,4 @@ RUN export DEVEL_URL="https://software.intel.com/file/531197/download" \
     && rm *.rpm *.deb
 
 # Let the system know where to find the OpenCL library at runtime
-ENV LD_LIBRARY_PATH /opt/intel/opencl
+ENV LD_LIBRARY_PATH /opt/intel/opencl:$LD_LIBRARY_PATH
