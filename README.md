@@ -20,4 +20,4 @@ You should see a dump of information about the OpenCL capabilities of your syste
 Depending on which Docker file you'd like to build.
 
     docker build -t your_tag_here -f Dockerfile.intel_headers
-    docker build -t your_tag_gere -f Dockerfile.khronos_headers
+    docker build -t your_tag_here -f Dockerfile.khronos_headers
